@@ -83,4 +83,3 @@ describe('Parse sitemap', () => {
     expect(sitemap).toEqual(['https://example.com/about', 'https://example.com/category'])
   })
 })
-

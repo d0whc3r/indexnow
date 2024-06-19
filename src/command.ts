@@ -18,4 +18,3 @@ program
 const options = program.opts<ProgramaProps>()
 
 postIndex(options.url, options.key, options.searchEngine)
-

@@ -5,4 +5,3 @@ export interface ProgramaProps {
   key: string
   searchEngine: SearchEngine
 }
-

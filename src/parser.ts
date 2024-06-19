@@ -21,4 +21,3 @@ export async function extractUrls(sitemap: string, acc: string[] = []): Promise<
 
   return []
 }
-
