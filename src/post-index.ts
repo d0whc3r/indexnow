@@ -62,7 +62,7 @@ export async function postIndex(sitemap: string, key: string, searchEngine: Sear
       }
       await axios.post(submitUrl, data)
       console.log(`[!] Submitted ${urlList.length} urls`)
-      await wait(getRandomRange(2000, 15000))
+      await wait(getRandomRange(2_000, 15_000))
     }
   } catch (e) {
     console.error(e)
