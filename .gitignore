@@ -176,3 +176,4 @@ dist
 
 indexnow-*
 *.bun-build
+.history/
