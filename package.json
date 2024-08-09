@@ -3,6 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "version": "0.0.2",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "bun index.ts",
     "compile:linux:x64": "bun build --compile --minify --target=bun-linux-x64-modern ./index.ts --outfile dist/indexnow-linux-x64",
