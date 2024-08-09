@@ -1,5 +1,4 @@
-.history
+.history/
 .prettier*
 .eslint*
 .gitignore
-.eslintrc
