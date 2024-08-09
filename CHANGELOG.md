@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/d0whc3r/indexnow/compare/v1.0.0...v1.0.1) (2024-08-09)
+
+
+### Bug Fixes
+
+* update content ([4618ea6](https://github.com/d0whc3r/indexnow/commit/4618ea6bc10f1f2125b8caf0bc316352bbc4a859))
+
 # 1.0.0 (2024-08-09)
 
 
