@@ -1,6 +1,7 @@
 {
   "name": "@d0whc3r/indexnow",
   "module": "index.ts",
+  "private": true,
   "type": "module",
   "version": "0.0.2",
   "files": [
