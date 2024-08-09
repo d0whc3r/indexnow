@@ -34,5 +34,6 @@ jobs:
         run: bun compile
       - name: Release
         env:
+          HUSKY: 0
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: bunx semantic-release

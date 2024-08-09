@@ -21,11 +21,16 @@ export default {
         npmPublish: false,
       },
     ],
-    '@semantic-release/github',
+    [
+      '@semantic-release/github',
+      {
+        assets: 'dist/*',
+      },
+    ],
     [
       '@semantic-release/git',
       {
-        assets: ['CHANGELOG.md', 'dist/**'],
+        assets: ['CHANGELOG.md'],
         message: 'chore(release): set `package.json` to ${nextRelease.version} [skip ci]',
       },
     ],
