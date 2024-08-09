@@ -1,0 +1,14 @@
+import globals from 'globals'
+import pluginJs from '@eslint/js'
+import tseslint from 'typescript-eslint'
+import { config } from 'eslint'
+
+const config: Config  = [
+  { languageOptions: { globals: globals.browser }, ignores: {
+
+  } },
+  pluginJs.configs.recommended,
+  ...tseslint.configs.recommended,
+]
+
+export default config

@@ -1,12 +1,10 @@
 import { Option, program } from 'commander'
 import { postIndex } from './post-index'
 import type { ProgramaProps } from './types'
-import { version } from '../package.json'
 
 program
   .name('IndexNow')
   .description('IndexNow CLI')
-  .version(version)
   .addOption(new Option('-u, --url <url>', 'Sitemap to index').makeOptionMandatory(true))
   .addOption(new Option('-k, --key <key>', 'API key').makeOptionMandatory(true))
   .addOption(

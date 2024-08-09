@@ -42,7 +42,7 @@ export async function postIndex(sitemap: string, key: string, searchEngine: Sear
   const keyLocation = new URL(`/${key}.txt`, sitemap).href
   try {
     await axios.get(keyLocation)
-  } catch {
+  } catch (e) {
     throw new Error(`Key ${keyLocation} not found`)
   }
   const submitUrl = getSubmitUrl(searchEngine)

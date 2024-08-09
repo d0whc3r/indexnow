@@ -1,0 +1,4 @@
+.history
+.prettier*
+.eslint*
+.gitignore
